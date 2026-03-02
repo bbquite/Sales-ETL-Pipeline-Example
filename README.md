@@ -29,4 +29,10 @@ After this, aggregated mart displays are created in a separate DAG.
 Superset connects only to the mart tables and builds the dashboard.
 This maintains the **raw → dwh → mart architecture** and the separation of responsibilities between layers.
 
+![](docs/airflow.png)
+
+![](docs/dash1.png)
+
+![](docs/dash2.png)
+
 
